@@ -26,7 +26,6 @@ border-radius: 8px;
 @media screen and (max-width: 600px){
   .container{
     width: 90%;
-    position: relative;
 max-width: 375px;
 height: 5717px;
 background: #FFFFFF;
