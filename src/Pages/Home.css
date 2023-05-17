@@ -386,12 +386,12 @@ height: 74px;
 }
 
 @media screen and (max-width: 600px){
-    .main-header-content{
+    /* .main-header-content{
 width: 375px;
 height: 449px;
 background: #E8ECEF;
 padding-left: 5px;
-    }
+    } */
     .main-header-right{
         display: none;
     }
