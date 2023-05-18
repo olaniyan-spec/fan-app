@@ -27,51 +27,55 @@ const Categories = () => {
                     <p>$52 $65</p>
                 </div>
                 <div className='fan-content'>
-                    <h4>SALE</h4>
                     <img src={fan2} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
                 <div className='fan-content'>
-                    <h4 className='end'>END</h4>
                     <img src={fan3} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
                 <div className='fan-content'>
-                <h4 className='sale'>SALE</h4>
                     <img src={fan4} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan5} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan6} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan7} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
                 <div className='fan-content'>
-                    <h4 className='eight'>END</h4>
                     <img src={fan8} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan9} alt='fan1'/>
                     <h3>HANDY RECHARGEABLE MINI</h3>
                     <h3>FAN</h3>
+                    <p>$52</p>
                 </div>
-                <button>SHOP NOW</button>
             </div>
+            <button>SHOP NOW</button>
             
         </div>
     </section>
