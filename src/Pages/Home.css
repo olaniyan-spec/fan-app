@@ -279,20 +279,7 @@ height: 74px;
         font-size: 1rem;
         padding-left: 45px;
     }
-    .discount-right{
-        padding-right: 85px;
-        padding-top: 80px;
-    }
-    .discount-right .big{
-       position: absolute;
-       width: 100px;
-        height: 102px;
-        top: 1910px;
-       left: 440px;
-    }.discount-right .small{
-        width: 100px;
-    height: 138px;
-    }
+
     .new-categories-wrapper{
         display: grid;
         grid-template-columns: 1fr;
