@@ -1,14 +1,11 @@
 .footer-container{
-width: 1440px;
-height: 409px;
 background: #48C4A0;
 }
 .footer-wrapper{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2px;
-    padding: 65px;
-    padding-right: 95px;
+    padding: 50px;
 }
 .footer-content{
     display: flex;
@@ -25,40 +22,22 @@ background: #48C4A0;
     color: white;
 }
 .footer-content h4{
-width: 255px;
-height: 19.58px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 30px;
-display: flex;
-align-items: center;
+
 color: #FFFFFF;
-margin-bottom: 1rem;
+
 }
 .footer-content h5, .h5{
-    width: 255px;
-height: 19.58px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 30px;
-display: flex;
-align-items: center;
+ 
 color: #FFFFFF;
 }
 .footer-copyright{
-width: 358px;
-height: 20px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 30px;
-text-align: center;
 color: #FFFFFF;
-position: absolute;
-left: 450px;
+
+}
+@media screen and (max-width: 600px){
+    .footer-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
 }

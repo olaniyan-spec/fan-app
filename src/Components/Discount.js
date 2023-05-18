@@ -16,7 +16,7 @@ const Discount = () => {
                 </div>
                 <div className='discount-right'>
                     <img className='small'src={fan1} alt='fan'/>
-                    <img  src={fan2} alt='fan2'/>
+                    <img className='big' src={fan2} alt='fan2'/>
                 </div>
             </div>
         </div>

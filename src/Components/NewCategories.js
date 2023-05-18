@@ -20,7 +20,7 @@ const fanDataRight =standingFan.map((data,id)=>{
   <div className='fan-image'>
     <img src={data.image} alt='fan'/>
   </div>
-  <small>{data.title}</small>
+  <h6>{data.title}</h6>
   <p className='price'>{data.price}</p>
 </Card>
 })

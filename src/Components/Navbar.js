@@ -21,8 +21,9 @@ const Navbar = () => {
                 <li className='nav-links'><NavLink to='/'>About</NavLink></li>
                 <li className='nav-links'><NavLink to='/'>Contact us</NavLink></li>
             </ul>
-            <div className='search'>
-                <AiOutlineSearch className='search-icon'/><input type='text' placeholder='search for product'/>
+            <div className='search-wrapper'>
+                 <AiOutlineSearch className='search-icon'/>
+                <input className='search' type='text' placeholder='search for product'/>
             </div>
             <div className='nav-icons'>
                 <RiContactsLine/>

@@ -22,56 +22,56 @@ const Categories = () => {
             <div className='fan-wrapper'>
                 <div className='fan-content'>
                     <img src={fan1} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>HANDY RECHARGEABLE MINI</h6>
+                    <h6>FAN</h6>
                     <p>$52 $65</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan2} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>USB Charging Folding Retractable Table Fan</h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan3} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>Mini Foldable USB Rechargable Mini Hand Fan With Battery</h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan4} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>Futina 4" Metal Ventilation / Heat Extractor Fan</h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan5} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>Multi-function Rechargeable Folding Retractable Table Fan</h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan6} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>Iris Ohyama Woozoo Powerful And Silent Fan With Oscillation </h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan7} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>Andrakk REACHARGEABLE MIST FAN - USB+SOLAR PORTS</h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan8} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>Ox 62" Inches Mega Ceiling Fan - White</h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
                 <div className='fan-content'>
                     <img src={fan9} alt='fan1'/>
-                    <h3>HANDY RECHARGEABLE MINI</h3>
-                    <h3>FAN</h3>
+                    <h6>Ox Standing Fan Industrial 26" Inches</h6>
+                    <h6>FAN</h6>
                     <p>$52</p>
                 </div>
             </div>

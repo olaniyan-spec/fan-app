@@ -25,7 +25,6 @@ const Arrival = () => {
                 <h4>AKAI TOWER FAN / AIR COOLER <br/> $50</h4>
             </div>
             <div className='best-seller'>
-            
                 <img src={img2} alt='first'/>
                 <h4>Portable Tower Fan Quiet  Fan USB  <br/><span>$50</span></h4>
             </div>
