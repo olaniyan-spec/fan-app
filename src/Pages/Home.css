@@ -295,6 +295,9 @@ height: 74px;
     .new-left .btn{
         margin-left: 160px;
     }
+    .discount-right{
+        display: none;
+    }
   
     
 
