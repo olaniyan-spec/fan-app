@@ -3,7 +3,7 @@ import headerFan from '../images/header-fan.jpg'
 
 const Header = () => {
   return (
-    <div className='container main-header'>
+    <div className='main-header'>
         <div className='main-header-content'>
             <div className='main-header-left'>
                 <h2>Fan that everyone loves</h2>

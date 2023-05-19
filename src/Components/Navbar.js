@@ -13,10 +13,10 @@ const Navbar = () => {
     const [navShowing, setNavshowing] = useState(false)
   return (
     <nav>
-        <div className='container nav-container'>
+        <div className='nav-container'>
             <div className='navbar-wrapper'>
             <Link to='/' className='logo' onClick={()=>setNavshowing(false)}><img src={logo} alt='logo'/></Link>
-            <ul className='nav-wrapper'>
+            <ul className={`nav-wrapper ${navShowing ? 'show-nav' : 'hide-nav'}`}>
                 <li className='nav-links'><NavLink to='/'>Home</NavLink></li>
                 <li className='nav-links'><NavLink to='/'>About</NavLink></li>
                 <li className='nav-links'><NavLink to='/'>Contact us</NavLink></li>

@@ -8,7 +8,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 const Footer = () => {
   return (
     <section className='footer'>
-        <div className='container footer-container'>
+        <div className='footer-container'>
             <div className='footer-wrapper'>
                   <article className='footer-content'>
                         <h4>Our Company</h4>
