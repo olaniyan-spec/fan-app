@@ -15,16 +15,17 @@ const Navbar = () => {
     <nav>
         <div className='nav-container'>
             <div className='navbar-wrapper'>
-            <Link to='/' className='logo' onClick={()=>setNavshowing(false)}><img src={logo} alt='logo'/></Link>
+            <Link to='/' className='logo' onClick={()=>setNavshowing(false)}>
+                <img src={logo} alt='logo'/></Link>
             <ul className={`nav-wrapper ${navShowing ? 'show-nav' : 'hide-nav'}`}>
                 <li className='nav-links'><NavLink to='/'>Home</NavLink></li>
                 <li className='nav-links'><NavLink to='/'>About</NavLink></li>
                 <li className='nav-links'><NavLink to='/'>Contact us</NavLink></li>
             </ul>
-            <div className='search-wrapper'>
-                 <AiOutlineSearch className='search-icon'/>
-                <input className='search' type='text' placeholder='search for product'/>
-            </div>
+                <div className='search-wrapper'>
+                    <AiOutlineSearch className='search-icon'/>
+                    <input className='search' type='text' placeholder='search for product'/>
+                </div>
             <div className='nav-icons'>
                 <RiContactsLine/>
                 <BsCart/>
@@ -32,11 +33,7 @@ const Navbar = () => {
                 navShowing ? <MdOutlineClose/> : <GoThreeBars/>
             }</button>
             </div>
-              
-
             </div>
-            
-
         </div>
     </nav>
   )
