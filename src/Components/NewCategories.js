@@ -30,7 +30,7 @@ const fanDataRight =standingFan.map((data,id)=>{
       <div className='container new-categories-container'>
         <div className='new-categories-wrapper'>
           <div className='new-left'>
-            <h4>Ceiling Fan</h4>
+            <h3>Ceiling Fan</h3>
             <small>Shop all ceiling fan choose from over 5000 models</small><br/>
             <button className='btn'>SHOP NOW</button>
           </div>
@@ -43,7 +43,7 @@ const fanDataRight =standingFan.map((data,id)=>{
         </div>
         <div className='new-categories-wrapper'>
           <div className='new-left'>
-            <h4>Standing Fan</h4>
+            <h3>Standing Fan</h3>
             <small>Shop all ceiling fan choose from over 5000 models</small><br/>
             <button className='btn'>SHOP NOW</button>
           </div>

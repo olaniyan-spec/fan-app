@@ -27,8 +27,10 @@ color: #FFFFFF;
 
 }
 .footer-content h5, .h5{
- 
 color: #FFFFFF;
+}
+.footer-copyright small{
+    font-size: 0.8rem;
 }
 .footer-copyright{
 color: #FFFFFF;
