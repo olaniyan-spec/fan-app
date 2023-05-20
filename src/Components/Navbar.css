@@ -74,6 +74,8 @@ border-radius: 8px;
     .nav-toggle{
         background: transparent;
         display: block;
+        font-size: 1rem;
+        font-weight: 600;
         color: black;
        }
        .navbar span{
