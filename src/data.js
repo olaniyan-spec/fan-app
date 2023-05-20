@@ -72,7 +72,7 @@ export const Links = [
   },
   {
       name:"Contact us",
-      path:'/Contactus'
+      path:'/ContactUs'
   },
   <input></input>
 ]
