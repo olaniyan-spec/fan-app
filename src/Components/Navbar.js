@@ -13,7 +13,7 @@ import './Navbar.css'
 const Navbar = () => {
     const [navShowing, setNavshowing] = useState(false)
   return (
-    <nav>
+    <nav onClick={()=>setNavshowing(false)}>
         <Link to ='/' className='logo' onClick={()=>setNavshowing(false)}>
                 <img src={logo} alt='nav_logo'></img>
         </Link>
