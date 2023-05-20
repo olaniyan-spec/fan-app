@@ -1,6 +1,7 @@
 import { standingFan } from '../data';
 import {fan} from '../data'
 import Card from './Card'
+import {Link} from 'react-router-dom'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { responsive } from '../data';
@@ -32,7 +33,7 @@ const fanDataRight =standingFan.map((data,id)=>{
           <div className='new-left'>
             <h3>Ceiling Fan</h3>
             <small>Shop all ceiling fan choose from over 5000 models</small><br/>
-            <button className='btn'>SHOP NOW</button>
+            <Link><button className='btn'>SHOP NOW</button></Link>
           </div>
             <div className='new-right'>
               <Carousel responsive={responsive}>
@@ -45,7 +46,7 @@ const fanDataRight =standingFan.map((data,id)=>{
           <div className='new-left'>
             <h3>Standing Fan</h3>
             <small>Shop all ceiling fan choose from over 5000 models</small><br/>
-            <button className='btn'>SHOP NOW</button>
+            <Link><button className='btn'>SHOP NOW</button></Link>
           </div>
             <div className='new-right'>
               <Carousel responsive={responsive}>

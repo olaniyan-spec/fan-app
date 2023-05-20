@@ -1,4 +1,5 @@
-import React from 'react'
+import React  from 'react'
+import {Link} from 'react-router-dom'
 import fan1 from '../images/fan1.jpg'
 import fan2 from '../images/fan2.jpg'
 import fan3 from '../images/fan3.jpg'
@@ -75,7 +76,7 @@ const Categories = () => {
                     <p>$52</p>
                 </div>
             </div>
-            <button>SHOP NOW</button>
+            <Link to = '/'><button>SHOP NOW</button></Link>
             
         </div>
     </section>

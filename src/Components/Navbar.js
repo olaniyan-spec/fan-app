@@ -12,7 +12,7 @@ import './Navbar.css'
 const Navbar = () => {
     const [navShowing, setNavshowing] = useState(false)
   return (
-    <nav onClick={()=>setNavshowing(false)}>
+    <nav>
         <Link to ='/' className='logo' onClick={()=>setNavshowing(false)}>
                 <img src={logo} alt='nav_logo'></img>
         </Link>
@@ -23,11 +23,13 @@ const Navbar = () => {
                         <li key={index}><NavLink to={path} >{name}</NavLink></li>
                     )     
                 })}
-                    <li><input className='search' type='text' placeholder='search for product'/></li>
+                    <li><input className='search' type='text' placeholder='Search for Product'/></li>
+                    <Link to = '/'>
                     <span>
                     <li className><RiContactsLine/></li>
                     <li className><BsCart/></li> 
-                    </span>    
+                    </span>
+                    </Link>    
             </ul>
                 <button className='nav-toggle' onClick={()=>setNavshowing(prev=>!prev)}>
                     { navShowing ? <MdOutlineClose/> : <GoThreeBars/>}
