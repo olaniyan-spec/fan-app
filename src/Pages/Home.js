@@ -1,4 +1,5 @@
 import React from 'react'
+import {useState} from 'react'
 import Header from '../Components/Header'
 import './Home.css'
 import Categories from '../Components/Categories'
@@ -9,8 +10,9 @@ import Partners from '../Components/Partners'
 
 
 const Home = () => {
+  const [navShowing, setNavshowing] = useState(false)
   return (
-    <div>
+    <div onClick={()=> setAnswerShowing(prev => !prev)}>
         <Header/>
         <Categories/>
         <Discount/>
