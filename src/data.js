@@ -61,3 +61,18 @@ export const standingFan = [
         price: '$45'
     },
 ]
+export const Links = [
+  {
+      name: "Home",
+      path: '/'
+  },
+  {
+      name:"About",
+      path:'/About',
+  },
+  {
+      name:"Contact us",
+      path:'/Contactus'
+  },
+  <input></input>
+]
